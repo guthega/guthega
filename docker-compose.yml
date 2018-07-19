@@ -1,0 +1,13 @@
+version: '3'
+services:
+  guthega:
+    build: .
+    volumes:
+      - ./conf/source.json:/opt/app/guthega/conf/source.json
+      - ./conf/receiver.json:/opt/app/guthega/conf/receiver.json
+    networks:
+      - kafka
+networks:
+  kafka:
+    external:
+      name: confluent-docker_kafka

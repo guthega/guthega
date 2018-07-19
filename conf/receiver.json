@@ -1,0 +1,7 @@
+{
+  "module": "@guthega/log_receiver",
+  "version": "0.1.0",
+  "properties": {
+    "level": "info"
+  }
+}

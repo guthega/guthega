@@ -1,0 +1,13 @@
+{
+  "type": "kafka",
+  "properties": {
+    "connection": {
+      "host": "zookeeper:2181",
+      "groupId": "ExampleTestGroup",
+      "sessionTimeout": 15000,
+      "protocol": ["roundrobin"],
+      "fromOffset": "latest"
+    },
+    "topics": ["test"]
+  }
+}

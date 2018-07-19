@@ -1,0 +1,9 @@
+{
+  "type": "redis",
+  "properties": {
+    "connection": {
+      "url": "redis://localhost:6379"
+    },
+    "channel": "test"
+  }
+}
